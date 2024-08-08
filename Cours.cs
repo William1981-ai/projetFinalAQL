@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace projetFinalAQL
+    // FAIS PAR WILLIAM
 { //Creation de la classe Cours 
     internal class Cours
     {

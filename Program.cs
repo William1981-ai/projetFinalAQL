@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace projetFinalAQL
-{
+{    // FAIS PAR WILLIAM 
     internal class Program
     {
         static void Main(string[] args)
@@ -27,9 +27,9 @@ namespace projetFinalAQL
             Console.WriteLine("Étudiant ajouté.");
 
             // Ceation des cours 
-            List <Cours> cours = new List<Cours>();
+            List<Cours> cours = new List<Cours>();
             Console.WriteLine($"veuillez entrer le numero de cours");
-            int numerocours = int.Parse (Console.ReadLine() );
+            int numerocours = int.Parse(Console.ReadLine());
             Console.WriteLine($"Entrer le titre du cours");
             string titreCours = Console.ReadLine();
             Console.WriteLine($"entrer le code du cours");
@@ -39,15 +39,15 @@ namespace projetFinalAQL
             cours.Add(nouveauCours);
             Console.WriteLine("Cours ajouté.");
 
-            
+
             //creation des notes
-            List<Notes>notesfinales = new List<Notes>();
+            List<Notes> notesfinales = new List<Notes>();
             Console.WriteLine("Entrer le numero etudiant");
             Console.ReadLine();
             Console.WriteLine($"Entrer le numero de cours");
             numerocours = int.Parse(Console.ReadLine());
             Console.WriteLine("Entrer la note ");
-            int note = int.Parse (Console.ReadLine() );
+            int note = int.Parse(Console.ReadLine());
 
             Notes nouvellenote = new Notes(numeroEtudiant, numerocours, note);
             notesfinales.Add(nouvellenote);
@@ -55,7 +55,7 @@ namespace projetFinalAQL
             Console.WriteLine("Note enregistrée.");
 
 
-            
+
             Console.Write("Numéro d'étudiant: ");
                
             List<string> noteList = Gestion.LectureNotes(numeroEtudiant);

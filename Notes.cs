@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace projetFinalAQL
-{
+{    //FAIS PAR WILLIAM
     //Creation de la classe notes
     internal class Notes
     {

@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace projetFinalAQL
-{ /// <summary>
-/// creation de la classe Etudiant 
+{ /// FAIS PAR MALICK
+  /// creation de la classe Etudiant 
 
     internal class Etudiant
     {
@@ -23,20 +23,20 @@ namespace projetFinalAQL
             this.prenom = prenom;
         }
         // definition des getteurs et setteurs
-        public string NumeroEtudiant 
+        public string NumeroEtudiant
         {
-            get => numeroEtudiant; 
+            get => numeroEtudiant;
             set => numeroEtudiant = value;
         }
-        public string Nom 
-        { 
-            get => nom; 
+        public string Nom
+        {
+            get => nom;
             set => nom = value;
         }
-        public string Prenom 
+        public string Prenom
         {
-            get => prenom; 
-            set => prenom = value; 
+            get => prenom;
+            set => prenom = value;
         }
 
         //implementation de la methode ToString pour l'affichage
@@ -47,3 +47,4 @@ namespace projetFinalAQL
     }
 
 }
+ 
